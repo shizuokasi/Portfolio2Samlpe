@@ -1,0 +1,33 @@
+/*
+* 画面のスタイルシート
+*/
+ 
+body{
+    background-color: gray;
+  }
+
+  img{
+   margin: 3px 0;
+   width: 30%;
+   background-color: white;
+  }
+
+  main div {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 5px;
+  }
+  .left-icon {
+    float: left;
+    width: 5%;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .right-icon{
+    float: right;
+    width: 5%; 
+    background-color: white;
+    text-align: center;
+  }
