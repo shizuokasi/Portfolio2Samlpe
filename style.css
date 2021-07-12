@@ -1,13 +1,18 @@
 /*
 * 画面のスタイルシート
 */
- 
 body{
-    background-color: gray;
+  background: linear-gradient(180deg,gray 0%,gray 488px,white 488px,white 100%);
+}
+
+  main{
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
   }
 
   img{
-   margin: 3px 0;
+   margin: 0px;
    width: 30%;
    background-color: white;
   }
@@ -31,3 +36,62 @@ body{
     background-color: white;
     text-align: center;
   }
+
+  .block-name{
+    list-style: none;
+    height: 400px;
+    width: 630px;
+    float: left;
+    margin-top: 0;
+    font-weight: 900;
+    font-size: 150px;
+    color: white;
+  }
+  .photo{
+    height: 400px;
+    width: 200%;
+  }
+
+.name2{
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  margin-left: 50px;
+}
+
+/*Aboutのスタイルシート*/
+
+.box-About{
+  margin: 50px 0;
+  margin-left: 30px;
+}
+
+.About{
+  width: 630px;
+  font-size: 25px;
+}
+
+.pc{
+  margin-left: 685px;
+  margin-top: -110px;  
+  width: 180%;
+}
+
+.text{
+  margin-top: -360px;
+  margin-left: 30px;
+}
+
+.text2{
+  margin-left: 30px;
+}
+
+.icon-list{
+  list-style: none;
+  width: 100%;
+  max-width: 247px;
+  margin-left: 30px;
+  padding: 0;
+  display: flex;
+  margin-bottom: 99px;
+}
