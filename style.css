@@ -73,16 +73,12 @@ body{
 
 .pc{
   margin-left: 685px;
-  margin-top: -110px;  
+  margin-top: -110px;
   width: 180%;
 }
 
 .text{
   margin-top: -360px;
-  margin-left: 30px;
-}
-
-.text2{
   margin-left: 30px;
 }
 
@@ -94,4 +90,53 @@ body{
   padding: 0;
   display: flex;
   margin-bottom: 99px;
+}
+/*
+Project
+*/
+
+.Project-box{
+  height: auto;
+  background-color:  gray;
+}
+
+.project{
+  color: white;
+  padding: 40px;
+}
+
+.twitter{
+  float: left;
+  width: 500px;
+  margin-left: 40px;
+  
+}
+
+.twitter-box{
+  float: right
+}
+
+.twitter-p{
+  background-color: gray;
+  color: white;
+  font-weight: lighter;
+  font-size: 40px;
+  
+}
+
+.text3{
+  color: white;
+}
+.Email{
+  color: white;
+}
+.link{
+  
+}
+.link a.website{
+  background-color: white;padding: 5px 20px;margin-right: 10px;font-size: 15px;text-decoration: none;color: #000;
+}
+.link a.github{
+  background-color: gray;padding: 5px 20px;margin-right: 10px;font-size: 15px;text-decoration: none;color: #000;
+  border: 1px solid white;
 }
