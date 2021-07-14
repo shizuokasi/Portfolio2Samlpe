@@ -4,7 +4,7 @@
 ポートフォリオのサンプルです。
 
 ## デモ
-[Webサイトを見る](https://https://jp-portfolio2-techis.herokuapp.com/)
+[Webサイトを見る](https://jp-portfolio2-techis.herokuapp.com/)
 
 ## 利用している技術
 HTML/CSS
