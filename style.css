@@ -4,6 +4,7 @@
 */
 body{
   background: linear-gradient(180deg,gray 0%,gray 500px,white 500px,white 100%);
+  min-width: 1076px;
 }
 
   main{
@@ -103,6 +104,9 @@ Project
   padding: 40px;
 }
 
+.twitter-box{
+  float: right
+}
 .twitter{
   float: left;
   width: 500px;
@@ -198,7 +202,146 @@ footer
 /* スマホ用スタイルシート */
  
 @media screen and (max-width:480px) {
+  /*header*/
+
+  body{
+  min-width: 100%;
 }
-/*
-header
-*/
+.left-icon {
+  float: left;
+  width: 7%;
+  background-color: gray;
+  text-align: center;
+}
+
+.right-icon{
+  float: none;
+  width: 6%; 
+  background-color:gray;
+  text-align: center;
+  margin-left: 340px;
+}
+
+.block-name{
+  list-style: none;
+  height: 400px;
+  float: none;
+  font-weight: 700;
+  font-size: 80px;
+  color: white;
+}
+
+.photo{
+  margin-top: -100px;
+  width: 250%;
+}
+.name2{
+  color: white;
+  font-size: 20px;
+  margin-top: -500px;
+  margin-left: 50px;
+}
+
+/*Aboutのスタイルシート*/
+
+.About{
+  width: 600px;
+  font-size: 25px;
+  margin-top: 180px;
+}
+
+.pc{
+display: none;
+}
+
+.text{
+  margin-top: auto;
+  margin-left: 20px;
+  font-size: 5px;
+}
+
+.icon-list{
+  list-style: none;
+  width: 40%;
+  max-width: 247px;
+  margin-left: 30px;
+  padding: 0;
+  display: flex;
+  margin-bottom: 99px;
+}
+
+/*Projectのスタイルシート*/
+
+.project{
+  color: white;
+  padding: 40px;
+}
+
+.twitter-box{
+ float: none;
+}
+
+.twitter{
+  float: left;
+  width: 300px;
+  margin-left: 40px;  
+}
+
+.twitter-p{
+  background-color: gray;
+  color: white;
+  font-weight: lighter;
+  font-size: 20px; 
+  text-align: center;
+}
+
+.text3{
+  color: white;
+  font-size: 7px;
+  text-align: center;
+}
+.Email{
+  color: white;
+  font-size: 7px;
+  text-align: center;
+}
+
+.link a.website{
+  background-color: white;padding: 3px 8px;margin-right: 10px;font-size: 10px; text-decoration: none; color: #000;
+  margin-left: 120px;
+}
+
+.link a.github{
+  background-color: gray;padding: 3px 8px;margin-right: 10px;font-size: 10px; text-decoration: none; color: #000;
+  border: 1px solid white;
+}
+
+/*netfilxのスタイルシート*/
+
+.netflix{
+  width: 300px;
+  margin-left: 40px;
+}
+
+.netflix-p{
+  color: #000;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.text4{
+  font-size: 7px;
+}
+
+.Email-2{
+  font-size: 7px;
+}
+
+/*footerのスタイルシート*/
+
+.footer-p{
+  color: white;
+  font-size: 30px;
+  margin-top: -50px;
+}
+}
