@@ -245,7 +245,7 @@ footer
 .About{
   width: 600px;
   font-size: 25px;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 
 .pc{
@@ -280,7 +280,7 @@ display: none;
 }
 
 .twitter{
-  float: left;
+  float: none;
   width: 300px;
   margin-left: 40px;  
 }
