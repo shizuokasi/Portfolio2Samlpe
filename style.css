@@ -245,7 +245,7 @@ footer
 .About{
   width: 600px;
   font-size: 25px;
-  margin-top: 180px;
+  margin-top: 250px;
 }
 
 .pc{
@@ -290,23 +290,20 @@ display: none;
   color: white;
   font-weight: lighter;
   font-size: 20px; 
-  text-align: center;
 }
 
 .text3{
   color: white;
   font-size: 7px;
-  text-align: center;
 }
 .Email{
   color: white;
   font-size: 7px;
-  text-align: center;
 }
 
 .link a.website{
   background-color: white;padding: 3px 8px;margin-right: 10px;font-size: 10px; text-decoration: none; color: #000;
-  margin-left: 120px;
+  margin-left: 10px;
 }
 
 .link a.github{
